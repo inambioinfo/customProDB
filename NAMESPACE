@@ -36,7 +36,7 @@ export(PrepareAnnotationEnsembl,PrepareAnnotationRefseq,
     easyRun,easyRun_mul,
 	calculateRPKM,Outputproseq,
 	InputVcf, Varlocation, Positionincoding, aaVariation, 
-    OutputVarproseq, OutputVarproseq_single, OutputVarprocodingseq, 
+    OutputVarproseq, OutputVarproseq_single, 
     Outputaberrant, 
     Bed2Range,JunctionType, OutputNovelJun,
  	OutputsharedPro, Multiple_VCF, SharedJunc
