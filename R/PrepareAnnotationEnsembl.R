@@ -14,12 +14,12 @@
 ##' @examples
 ##' 
 ##' ensembl <- useMart("ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl",
-##' host="feb2012.archive.ensembl.org", path="/biomart/martservice", 
+##' host="sep2015.archive.ensembl.org", path="/biomart/martservice", 
 ##' archive=FALSE)
 ##' 
 ##' annotation_path <- tempdir()
 ##' transcript_ids <- c("ENST00000234420", "ENST00000269305", "ENST00000445888", 
-##'     "ENST00000257430", "ENST00000457016", "ENST00000288602", 
+##'     "ENST00000257430", "ENST00000508376", "ENST00000288602", 
 ##'     "ENST00000269571", "ENST00000256078", "ENST00000384871")
 ##' 
 ##' PrepareAnnotationEnsembl(mart=ensembl, annotation_path=annotation_path, 
