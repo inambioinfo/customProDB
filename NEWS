@@ -1,0 +1,69 @@
+CHANGES IN VERSION 1.5.3
+-------------------------
+
+BUG FIXES
+
+    o Fix a bug, ID mapping, in function OutputNovelJun.R
+
+
+CHANGES IN VERSION 1.5.4
+-------------------------
+
+BUG FIXES
+
+    o Fix a bug, novel junction coding sequence on '-' strand, in function OutputNovelJun.R
+
+CHANGES IN VERSION 1.5.5
+-------------------------
+
+BUG FIXES
+
+    o Fix a bug in function OutputNovelJun.R
+
+CHANGES IN VERSION 1.8.2
+-------------------------
+
+UPDATED FUNCTIONS
+
+    o Update functions PrepareAnnotationEnsembl.R and PrepareAnnotationRefseq.R due to updates in depending packages
+
+CHANGES IN VERSION 1.13.1
+-------------------------
+
+BUG FIXES
+
+    o Fix a small bug in function JunctionType.R
+
+NEW FEATURES
+
+    o Update the function OutputVarproseq.R to output a data frame 'snvproseq'
+	o Add a function OutputVarprocodingseq.R to output a data frame 'snvprocoding'
+
+CHANGES IN VERSION 1.13.2
+-------------------------
+
+UPDATED FUNCTIONS
+
+    o Update functions PrepareAnnotationEnsembl.R and PrepareAnnotationRefseq.R due to updates in depending packages
+
+
+CHANGES IN VERSION 1.14.1
+-------------------------
+
+UPDATED FUNCTIONS
+
+    o Update mouse dbsnp version part in function PrepareAnnotationEnsembl.R
+	o Update function OutputVarproseq.R, JunctionType.R and  calculateRPKM.R
+	 
+NEW FEATURES
+	o Update function OutputNovelJun.R to save '_jun_anno.RData', '_coding.RData' and '_junpep.RData', which could be used as input for proBAMr package
+	
+
+CHANGES IN VERSION 1.15.2
+-------------------------
+
+UPDATED FUNCTIONS
+
+	o Update function SharedJunc.R
+	 
+	
